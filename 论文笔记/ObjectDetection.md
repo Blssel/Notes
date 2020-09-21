@@ -1,4 +1,5 @@
-# Proposed Method
+# M
+## Proposed Method
 
 <div align="center"><img src="pic/picture_2020-09-20-17-52-58.png" alt="Image" style="zoom:%;" /></div>
 
@@ -10,4 +11,5 @@
 <div align="center"><img src="pic/picture_2020-09-20-18-51-32.png" alt="Image" style="zoom:%;" /></div>
 
 **然后**，**base feature**被送入**多个**堆叠的<TUM, FFMv2>模块当中，其中TUM是个U型网络，上采样部分的feature map可以认为是多层不同尺度的feature map；FFMv2的作用是**将TUM最后一层feature map和base feature进行融合**，输出的结果送入下一个<TUM, FFMv2>模块中
+
 
